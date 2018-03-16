@@ -47,18 +47,23 @@ void inputKeyboardUp(WORD cmd)
 // Params:
 //   dwFlags    The mouse event to send
 //   mouseData  Additional information needed for certain mouse events (Optional)
-void mouseEvent(DWORD dwFlags, DWORD mouseData = 0)
+void mouseEvent(DWORD dwFlags, DWORD mouseData = 0, long dx = 0, long dy = 0)
 {
   INPUT input;
   input.type = INPUT_MOUSE;
 
   // Only set mouseData when using a supported dwFlags type
-  if (dwFlags == MOUSEEVENTF_WHEEL ||
-      dwFlags == MOUSEEVENTF_XUP   ||
-      dwFlags == MOUSEEVENTF_XDOWN ||
-      dwFlags == MOUSEEVENTF_HWHEEL)
+  if ((dwFlags & MOUSEEVENTF_WHEEL)   != 0 ||
+      (dwFlags & MOUSEEVENTF_XUP)     != 0 ||
+      (dwFlags & MOUSEEVENTF_XDOWN)   != 0 ||
+      (dwFlags & MOUSEEVENTF_HWHEEL)  != 0)
   {
     input.mi.mouseData = mouseData;
+  }
+  else if ((dwFlags & MOUSEEVENTF_MOVE) != 0)
+  {
+    input.mi.dx = dx;
+    input.mi.dy = dy;
   }
   else
   {
@@ -493,7 +498,8 @@ void Gopher::handleMouseMovement()
   y -= dy;
   _yRest = y - (float)((int)y);
 
-  SetCursorPos((int)x, (int)y); //after all click input processing
+  mouseEvent(MOUSEEVENTF_MOVE, 0, dx, dy * -1.0f);
+  //SetCursorPos((int)x, (int)y); //after all click input processing
 }
 
 // Description:
