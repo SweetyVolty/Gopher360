@@ -1,12 +1,13 @@
 Download
 ======
 
-[![Github All Releases](https://img.shields.io/github/downloads/Tylemagne/Gopher360/total.svg?style=flat&label=Download%20Gopher360%20Standalone&logo=appveyor&colorA=00cc0a&colorB=000000)](https://github.com/Tylemagne/Gopher360/releases/download/v0.989/Gopher.exe)
+Work in progress!
+[![Github All Releases](https://img.shields.io/github/downloads/kkaja123/Gopher360/total.svg?style=flat&label=Download%20Gopher360%20Standalone&logo=appveyor&colorA=00cc0a&colorB=000000)](https://github.com/kkaja123/Gopher360/releases/download/v0.989/Gopher.exe)
 
 Donate
 ======
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ETDWNUEJG2UY2)
+[Consider donating to a wonderful charity of your choice!](https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=2203)
 
 Compatible Controllers
 ======
@@ -27,10 +28,6 @@ DualShock controllers are great, but you NEED to emulate Xinput for Gopher to se
 ### Third party
 SOME third party controllers will most likely work as well. I haven't seen one not work, but I'd imagine some wouldn't. Research before buying, Gopher expects native Xinput devices, so the controller should as well. I won't be listing any for now until I know what ones will work. If I can find one that does the job and saves you from Microsoft's extreme profit margins, I'll list it.
 
-Feedback
-======
-
-[![Static](https://img.shields.io/badge/Feedback%20Survey-03-blue.svg?logo=eclipse)](https://docs.google.com/forms/d/e/1FAIpQLScbsasEPPPLY0utFSnowtZFAr_O60hAHvrLt7_wEHZ3pzY9AA/viewform)
 
 Table of contents
 =================
@@ -44,7 +41,6 @@ Table of contents
   * [License](#license)
 
 
-
 About Gopher
 ======
 
@@ -52,17 +48,17 @@ Gopher is a utility for couch-oriented PC users that wish to entirely control th
 
 Gopher separates itself from the competition by being efficient, small, portable, free, and fully open. If you have something you'd like to see improved, added, or changed, please fill out the survey.
 
-[![Github Releases (by Release)](https://img.shields.io/github/downloads/Tylemagne/Gopher360/v0.989/total.svg)]()
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/kkaja123/Gopher360/v0.989/total.svg)]()
 
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Tylemagne/Gopher360.svg)]()
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/kkaja123/Gopher360.svg)]()
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Tylemagne/gopher360.svg)]()
+[![GitHub last commit](https://img.shields.io/github/last-commit/kkaja123/gopher360.svg)]()
 
-[![GitHub top language](https://img.shields.io/github/languages/top/Tylemagne/gopher360.svg)]()
+[![GitHub top language](https://img.shields.io/github/languages/top/kkaja123/gopher360.svg)]()
 
-[![GitHub release](https://img.shields.io/github/release/Tylemagne/gopher360.svg)]()
+[![GitHub release](https://img.shields.io/github/release/kkaja123/gopher360.svg)]()
 
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/Tylemagne/gopher360/latest.svg)]()
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/kkaja123/Gopher360/latest.svg)]()
 
 Requirements
 ======
